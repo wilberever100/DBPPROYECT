@@ -18,7 +18,7 @@
 
 
   
-  <body>
+  <body style="background-image:url(imagenes/fondoindex2.jpg);">
 	<!-- preguntar lo del nickname-->
   <br><br><br>
 	<?php echo "Hola" . $_GET['user']; ?>
@@ -37,7 +37,7 @@
           <a class="nav-link" href="#">Perfil <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Foro</a>
+          <a class="nav-link" href="foro.html">Foro</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,7 +45,6 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="editar.html">Editar Información</a>
-              <a class="dropdown-item" href="#">Cambiar Nombre</a>
               <a class="dropdown-item" href="#">Cambiar Contraseña</a>
           </div>
         </li>
