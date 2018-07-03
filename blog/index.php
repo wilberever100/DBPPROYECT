@@ -52,11 +52,29 @@
       
     </div>
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" data-target="#salir" href="login.html">
         Log Out
         <img  src="imagenes/cancelar.png" title="MiFoto" alt="" width="30" height="30" >
         
       </a>
+
+    <div class="modal fade" id="salir" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alerta</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 Usted acaba de cambiar su Actor Favorito
+                </div>
+                    
+              </div>
+            </div>
+          </div>
+      </div>
   </nav>
 
 
