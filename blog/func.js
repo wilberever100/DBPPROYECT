@@ -1,3 +1,3 @@
-function alertar(){
-	alert("Vas a cambiar tu nombre")
+function myFunction(){
+	alert("Vas a cambiar tu nombre");
 }
